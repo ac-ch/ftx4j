@@ -1,4 +1,4 @@
-package com.after_sunrise.api.ftx4j.entity;
+package com.innodiff.api.ftx4j.entity;
 
 import org.immutables.value.Value;
 
@@ -12,16 +12,13 @@ import java.time.Instant;
  * @version 0.0.0
  */
 @Value.Immutable(singleton = true)
-public abstract class Ftx4jExecution {
+public abstract class Ftx4jOrder {
 
     @Nullable
     public abstract String getOrderId();
 
     @Nullable
     public abstract String getClientId();
-
-    @Nullable
-    public abstract String getTradeId();
 
     @Nullable
     public abstract Instant getTimestamp();
@@ -33,15 +30,15 @@ public abstract class Ftx4jExecution {
     public abstract Ftx4jSideType getSide();
 
     @Nullable
-    public abstract Ftx4jAggressorType getAggressor();
+    public abstract BigDecimal getOrderPrice();
 
     @Nullable
-    public abstract BigDecimal getPrice();
+    public abstract BigDecimal getOrderQuantity();
 
     @Nullable
-    public abstract BigDecimal getQuantity();
+    public abstract BigDecimal getFilledQuantity();
 
     @Nullable
-    public abstract BigDecimal getCommission();
+    public abstract BigDecimal getPendingQuantity();
 
 }

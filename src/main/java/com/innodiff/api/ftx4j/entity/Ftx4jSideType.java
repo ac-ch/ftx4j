@@ -1,4 +1,4 @@
-package com.after_sunrise.api.ftx4j.entity;
+package com.innodiff.api.ftx4j.entity;
 
 import quickfix.field.Side;
 

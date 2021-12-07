@@ -1,4 +1,4 @@
-package com.after_sunrise.api.ftx4j;
+package com.innodiff.api.ftx4j;
 
 import java.util.Locale;
 import java.util.Objects;

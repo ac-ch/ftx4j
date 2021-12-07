@@ -1,7 +1,7 @@
-package com.after_sunrise.api.ftx4j;
+package com.innodiff.api.ftx4j;
 
-import com.after_sunrise.api.ftx4j.entity.Ftx4jExecution;
-import com.after_sunrise.api.ftx4j.entity.Ftx4jOrder;
+import com.innodiff.api.ftx4j.entity.Ftx4jExecution;
+import com.innodiff.api.ftx4j.entity.Ftx4jOrder;
 
 /**
  * @author takanori.takase

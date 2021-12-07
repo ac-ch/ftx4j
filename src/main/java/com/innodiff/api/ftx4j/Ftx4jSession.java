@@ -1,4 +1,4 @@
-package com.after_sunrise.api.ftx4j;
+package com.innodiff.api.ftx4j;
 
 import quickfix.Session;
 import quickfix.SessionID;

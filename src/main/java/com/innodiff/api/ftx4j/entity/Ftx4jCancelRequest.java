@@ -1,6 +1,6 @@
-package com.after_sunrise.api.ftx4j.entity;
+package com.innodiff.api.ftx4j.entity;
 
-import com.after_sunrise.api.ftx4j.Ftx4jSession;
+import com.innodiff.api.ftx4j.Ftx4jSession;
 import org.immutables.value.Value;
 
 /**

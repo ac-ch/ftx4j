@@ -1,11 +1,11 @@
-package com.after_sunrise.api.ftx4j;
+package com.innodiff.api.ftx4j;
 
-import com.after_sunrise.api.ftx4j.entity.Ftx4jCancelRequest;
-import com.after_sunrise.api.ftx4j.entity.Ftx4jCancelResponse;
-import com.after_sunrise.api.ftx4j.entity.Ftx4jCreateRequest;
-import com.after_sunrise.api.ftx4j.entity.Ftx4jCreateResponse;
-import com.after_sunrise.api.ftx4j.entity.Ftx4jStatusRequest;
-import com.after_sunrise.api.ftx4j.entity.Ftx4jStatusResponse;
+import com.innodiff.api.ftx4j.entity.Ftx4jCancelRequest;
+import com.innodiff.api.ftx4j.entity.Ftx4jCancelResponse;
+import com.innodiff.api.ftx4j.entity.Ftx4jCreateRequest;
+import com.innodiff.api.ftx4j.entity.Ftx4jCreateResponse;
+import com.innodiff.api.ftx4j.entity.Ftx4jStatusRequest;
+import com.innodiff.api.ftx4j.entity.Ftx4jStatusResponse;
 import quickfix.ConfigError;
 
 import java.util.Objects;
